@@ -6,7 +6,6 @@ services:
     volumes:
       - ./:/var/www/html
       - ./.env.docker.production:/var/www/html/.env
-      - /var/www/html/vendor
 
   nginx:
     ports:
