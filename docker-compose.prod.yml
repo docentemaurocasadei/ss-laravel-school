@@ -10,7 +10,7 @@ services:
 
   nginx:
     ports:
-      - "127.0.0.1:8081:80"
+      - "172.17.0.1:8081:80"
 
   mysql:
     ports: []

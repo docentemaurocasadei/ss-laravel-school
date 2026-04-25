@@ -9,3 +9,7 @@ docker exec -it ss-laravel-school-app php artisan config:cache
 
 se si vuole fare seed:
 docker exec -it ss-laravel-school-app php artisan db:seed
+
+*****
+per aggiornare su vps in produzione
+chmod +x /opt/apps/ss-laravel-school/update.sh
