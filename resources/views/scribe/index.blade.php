@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Laravel API Documentation</title>
+    <title>SS Laravel School API Documentation</title>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
@@ -26,7 +26,7 @@
             </style>
 
     <script>
-        var tryItOutBaseUrl = "http://localhost";
+        var tryItOutBaseUrl = "https://ss-laravel-school.soluzionesoftwaredev.com";
         var useCsrf = Boolean();
         var csrfUrl = "/sanctum/csrf-cookie";
     </script>
@@ -136,7 +136,7 @@
     <div class="content">
         <h1 id="introduction">Introduction</h1>
 <aside>
-    <strong>Base URL</strong>: <code>http://localhost</code>
+    <strong>Base URL</strong>: <code>https://ss-laravel-school.soluzionesoftwaredev.com</code>
 </aside>
 <pre><code>This documentation aims to provide all the information you need to work with our API.
 
@@ -163,14 +163,14 @@ You can switch the language used with the tabs at the top right (or from the nav
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/user" \
+    --get "https://ss-laravel-school.soluzionesoftwaredev.com/api/user" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/user"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/user"
 );
 
 const headers = {
@@ -290,7 +290,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/students/search" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students/search" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -302,7 +302,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/students/search"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students/search"
 );
 
 const headers = {
@@ -436,7 +436,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/courses/2/students" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17/students" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -449,7 +449,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/courses/2/students"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17/students"
 );
 
 const headers = {
@@ -552,10 +552,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="course_id"                data-endpoint="POSTapi-courses--course_id--students"
-               value="2"
+               value="17"
                data-component="url">
     <br>
-<p>The ID of the course. Example: <code>2</code></p>
+<p>The ID of the course. Example: <code>17</code></p>
             </div>
                             <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
         <div style=" padding-left: 28px;  clear: unset;">
@@ -587,14 +587,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/courses/2/students/1" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17/students/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/courses/2/students/1"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17/students/1"
 );
 
 const headers = {
@@ -691,10 +691,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="course_id"                data-endpoint="DELETEapi-courses--course_id--students--student_id-"
-               value="2"
+               value="17"
                data-component="url">
     <br>
-<p>The ID of the course. Example: <code>2</code></p>
+<p>The ID of the course. Example: <code>17</code></p>
             </div>
                     <div style="padding-left: 28px; clear: unset;">
                 <b style="line-height: 2;"><code>student_id</code></b>&nbsp;&nbsp;
@@ -723,7 +723,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/students" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -731,7 +731,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
     \"surname\": \"vddqamniihfqcoynl\",
     \"mobile\": \"azghdtqtqxbajwbpi\",
     \"email\": \"jaunita.schamberger@example.com\",
-    \"birth_date\": \"2026-04-25T13:31:28\",
+    \"birth_date\": \"2026-04-25T13:57:26\",
     \"fiscal_code\": \"inllwloauydls\",
     \"civil_status\": \"msjuryvojcybzvrby\"
 }"
@@ -740,7 +740,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/students"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students"
 );
 
 const headers = {
@@ -753,7 +753,7 @@ let body = {
     "surname": "vddqamniihfqcoynl",
     "mobile": "azghdtqtqxbajwbpi",
     "email": "jaunita.schamberger@example.com",
-    "birth_date": "2026-04-25T13:31:28",
+    "birth_date": "2026-04-25T13:57:26",
     "fiscal_code": "inllwloauydls",
     "civil_status": "msjuryvojcybzvrby"
 };
@@ -895,10 +895,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="birth_date"                data-endpoint="POSTapi-students"
-               value="2026-04-25T13:31:28"
+               value="2026-04-25T13:57:26"
                data-component="body">
     <br>
-<p>Must be a valid date. Example: <code>2026-04-25T13:31:28</code></p>
+<p>Must be a valid date. Example: <code>2026-04-25T13:57:26</code></p>
         </div>
                 <div style=" padding-left: 28px;  clear: unset;">
             <b style="line-height: 2;"><code>fiscal_code</code></b>&nbsp;&nbsp;
@@ -939,7 +939,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost/api/students/1" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -947,14 +947,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
     \"surname\": \"vddqamniihfqcoynl\",
     \"mobile\": \"azghdtqtqxbajwbpi\",
     \"email\": \"jaunita.schamberger@example.com\",
-    \"birth_date\": \"2026-04-25T13:31:28\"
+    \"birth_date\": \"2026-04-25T13:57:26\"
 }"
 </code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/students/1"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students/1"
 );
 
 const headers = {
@@ -967,7 +967,7 @@ let body = {
     "surname": "vddqamniihfqcoynl",
     "mobile": "azghdtqtqxbajwbpi",
     "email": "jaunita.schamberger@example.com",
-    "birth_date": "2026-04-25T13:31:28"
+    "birth_date": "2026-04-25T13:57:26"
 };
 
 fetch(url, {
@@ -1124,10 +1124,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="birth_date"                data-endpoint="PUTapi-students--id-"
-               value="2026-04-25T13:31:28"
+               value="2026-04-25T13:57:26"
                data-component="body">
     <br>
-<p>Must be a valid date. Example: <code>2026-04-25T13:31:28</code></p>
+<p>Must be a valid date. Example: <code>2026-04-25T13:57:26</code></p>
         </div>
         </form>
 
@@ -1144,14 +1144,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/students/1" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/students/1"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students/1"
 );
 
 const headers = {
@@ -1268,7 +1268,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/courses" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -1280,7 +1280,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/courses"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses"
 );
 
 const headers = {
@@ -1414,7 +1414,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request PUT \
-    "http://localhost/api/courses/2" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json" \
     --data "{
@@ -1426,7 +1426,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/courses/2"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17"
 );
 
 const headers = {
@@ -1532,10 +1532,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="PUTapi-courses--id-"
-               value="2"
+               value="17"
                data-component="url">
     <br>
-<p>The ID of the course. Example: <code>2</code></p>
+<p>The ID of the course. Example: <code>17</code></p>
             </div>
                             <h4 class="fancy-heading-panel"><b>Body Parameters</b></h4>
         <div style=" padding-left: 28px;  clear: unset;">
@@ -1577,14 +1577,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request DELETE \
-    "http://localhost/api/courses/2" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/courses/2"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17"
 );
 
 const headers = {
@@ -1681,10 +1681,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="DELETEapi-courses--id-"
-               value="2"
+               value="17"
                data-component="url">
     <br>
-<p>The ID of the course. Example: <code>2</code></p>
+<p>The ID of the course. Example: <code>17</code></p>
             </div>
                     </form>
 
@@ -1701,14 +1701,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/students" \
+    --get "https://ss-laravel-school.soluzionesoftwaredev.com/api/students" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/students"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students"
 );
 
 const headers = {
@@ -1740,102 +1740,14 @@ access-control-allow-origin: *
 <code class="language-json" style="max-height: 300px;">[
     {
         &quot;id&quot;: 1,
-        &quot;name&quot;: &quot;Mario&quot;,
-        &quot;surname&quot;: &quot;Rossi&quot;,
-        &quot;mobile&quot;: &quot;1234567890&quot;,
-        &quot;email&quot;: &quot;mario.rossi@example.com&quot;,
-        &quot;birth_date&quot;: &quot;2000-01-01&quot;,
-        &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;Luigi&quot;,
-        &quot;surname&quot;: &quot;Verdi&quot;,
-        &quot;mobile&quot;: &quot;0987654321&quot;,
-        &quot;email&quot;: &quot;luigi.verdi@example.com&quot;,
-        &quot;birth_date&quot;: &quot;2001-02-02&quot;,
-        &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 3,
-        &quot;name&quot;: &quot;Giulia&quot;,
-        &quot;surname&quot;: &quot;Bianchi&quot;,
-        &quot;mobile&quot;: &quot;5555555555&quot;,
-        &quot;email&quot;: &quot;giulia.bianchi@example.com&quot;,
-        &quot;birth_date&quot;: &quot;2002-03-03&quot;,
-        &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 4,
-        &quot;name&quot;: &quot;Francesca&quot;,
-        &quot;surname&quot;: &quot;Neri&quot;,
-        &quot;mobile&quot;: &quot;4444444444&quot;,
-        &quot;email&quot;: &quot;francesca.neri@example.com&quot;,
-        &quot;birth_date&quot;: &quot;2003-04-04&quot;,
-        &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 5,
-        &quot;name&quot;: &quot;Alessandro&quot;,
-        &quot;surname&quot;: &quot;Gialli&quot;,
-        &quot;mobile&quot;: &quot;3333333333&quot;,
-        &quot;email&quot;: &quot;alessandro.gialli@example.com&quot;,
-        &quot;birth_date&quot;: &quot;2004-05-05&quot;,
-        &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 7,
-        &quot;name&quot;: &quot;Paola&quot;,
-        &quot;surname&quot;: &quot;Di Giuseppe&quot;,
-        &quot;mobile&quot;: &quot;3201234568&quot;,
-        &quot;email&quot;: &quot;paoladiguseppe@gmail.com&quot;,
-        &quot;birth_date&quot;: &quot;2000-04-05&quot;,
-        &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 8,
-        &quot;name&quot;: &quot;Paola&quot;,
-        &quot;surname&quot;: &quot;Di Giuseppe&quot;,
-        &quot;mobile&quot;: &quot;3201234567&quot;,
-        &quot;email&quot;: &quot;paoladiguseppe@gmail.com&quot;,
-        &quot;birth_date&quot;: &quot;2000-04-05&quot;,
-        &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
-    },
-    {
-        &quot;id&quot;: 10,
-        &quot;name&quot;: &quot;Gianni&quot;,
-        &quot;surname&quot;: &quot;Macchiavelli&quot;,
-        &quot;mobile&quot;: &quot;3281234569&quot;,
-        &quot;email&quot;: &quot;giannimacchiavelli@alice.it&quot;,
-        &quot;birth_date&quot;: &quot;2000-04-05&quot;,
-        &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: &quot;2026-04-21T15:49:57.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2026-04-21T15:50:06.000000Z&quot;
-    },
-    {
-        &quot;id&quot;: 11,
         &quot;name&quot;: &quot;Giovanna&quot;,
         &quot;surname&quot;: &quot;Giallini&quot;,
         &quot;mobile&quot;: &quot;32812345&quot;,
         &quot;email&quot;: &quot;giovannagiallini@libero.it&quot;,
         &quot;birth_date&quot;: &quot;1999-04-05&quot;,
         &quot;deleted_at&quot;: null,
-        &quot;created_at&quot;: &quot;2026-04-23T08:10:35.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2026-04-23T08:10:35.000000Z&quot;
+        &quot;created_at&quot;: &quot;2026-04-25T13:10:44.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-04-25T13:10:44.000000Z&quot;
     }
 ]</code>
  </pre>
@@ -1926,14 +1838,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/students/1" \
+    --get "https://ss-laravel-school.soluzionesoftwaredev.com/api/students/1" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/students/1"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/students/1"
 );
 
 const headers = {
@@ -1964,38 +1876,23 @@ access-control-allow-origin: *
 
 <code class="language-json" style="max-height: 300px;">{
     &quot;id&quot;: 1,
-    &quot;name&quot;: &quot;Mario&quot;,
-    &quot;surname&quot;: &quot;Rossi&quot;,
-    &quot;mobile&quot;: &quot;1234567890&quot;,
-    &quot;email&quot;: &quot;mario.rossi@example.com&quot;,
-    &quot;birth_date&quot;: &quot;2000-01-01&quot;,
+    &quot;name&quot;: &quot;Giovanna&quot;,
+    &quot;surname&quot;: &quot;Giallini&quot;,
+    &quot;mobile&quot;: &quot;32812345&quot;,
+    &quot;email&quot;: &quot;giovannagiallini@libero.it&quot;,
+    &quot;birth_date&quot;: &quot;1999-04-05&quot;,
     &quot;deleted_at&quot;: null,
-    &quot;created_at&quot;: null,
-    &quot;updated_at&quot;: null,
+    &quot;created_at&quot;: &quot;2026-04-25T13:10:44.000000Z&quot;,
+    &quot;updated_at&quot;: &quot;2026-04-25T13:10:44.000000Z&quot;,
     &quot;profile&quot;: {
         &quot;id&quot;: 1,
-        &quot;fiscal_code&quot;: &quot;RSSMRA90A25H294K&quot;,
-        &quot;civil_status&quot;: &quot;celibe&quot;,
+        &quot;fiscal_code&quot;: &quot;GLLGVN99D45H294U&quot;,
+        &quot;civil_status&quot;: &quot;nubile&quot;,
         &quot;student_id&quot;: 1,
-        &quot;created_at&quot;: null,
-        &quot;updated_at&quot;: null
+        &quot;created_at&quot;: &quot;2026-04-25T13:10:44.000000Z&quot;,
+        &quot;updated_at&quot;: &quot;2026-04-25T13:10:44.000000Z&quot;
     },
-    &quot;votes&quot;: [
-        {
-            &quot;id&quot;: 1,
-            &quot;value&quot;: &quot;8.50&quot;,
-            &quot;student_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
-        },
-        {
-            &quot;id&quot;: 3,
-            &quot;value&quot;: &quot;7.00&quot;,
-            &quot;student_id&quot;: 1,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null
-        }
-    ]
+    &quot;votes&quot;: []
 }</code>
  </pre>
     </span>
@@ -2098,14 +1995,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/courses" \
+    --get "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/courses"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses"
 );
 
 const headers = {
@@ -2134,22 +2031,7 @@ content-type: application/json
 access-control-allow-origin: *
  </code></pre></details>         <pre>
 
-<code class="language-json" style="max-height: 300px;">[
-    {
-        &quot;id&quot;: 2,
-        &quot;name&quot;: &quot;Laravel&quot;,
-        &quot;duration&quot;: 28,
-        &quot;created_at&quot;: &quot;2026-04-23T08:40:29.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2026-04-23T08:40:29.000000Z&quot;
-    },
-    {
-        &quot;id&quot;: 3,
-        &quot;name&quot;: &quot;Html&quot;,
-        &quot;duration&quot;: 46,
-        &quot;created_at&quot;: &quot;2026-04-23T08:42:28.000000Z&quot;,
-        &quot;updated_at&quot;: &quot;2026-04-23T08:43:05.000000Z&quot;
-    }
-]</code>
+<code class="language-json" style="max-height: 300px;">[]</code>
  </pre>
     </span>
 <span id="execution-results-GETapi-courses" hidden>
@@ -2238,14 +2120,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request GET \
-    --get "http://localhost/api/courses/2" \
+    --get "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/courses/2"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/courses/17"
 );
 
 const headers = {
@@ -2263,7 +2145,7 @@ fetch(url, {
 
 <span id="example-responses-GETapi-courses--id-">
             <blockquote>
-            <p>Example response (200):</p>
+            <p>Example response (404):</p>
         </blockquote>
                 <details class="annotation">
             <summary style="cursor: pointer;">
@@ -2275,73 +2157,7 @@ access-control-allow-origin: *
  </code></pre></details>         <pre>
 
 <code class="language-json" style="max-height: 300px;">{
-    &quot;id&quot;: 2,
-    &quot;name&quot;: &quot;Laravel&quot;,
-    &quot;duration&quot;: 28,
-    &quot;created_at&quot;: &quot;2026-04-23T08:40:29.000000Z&quot;,
-    &quot;updated_at&quot;: &quot;2026-04-23T08:40:29.000000Z&quot;,
-    &quot;students&quot;: [
-        {
-            &quot;id&quot;: 2,
-            &quot;name&quot;: &quot;Luigi&quot;,
-            &quot;surname&quot;: &quot;Verdi&quot;,
-            &quot;mobile&quot;: &quot;0987654321&quot;,
-            &quot;email&quot;: &quot;luigi.verdi@example.com&quot;,
-            &quot;birth_date&quot;: &quot;2001-02-02&quot;,
-            &quot;deleted_at&quot;: null,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;course_id&quot;: 2,
-                &quot;student_id&quot;: 2
-            }
-        },
-        {
-            &quot;id&quot;: 3,
-            &quot;name&quot;: &quot;Giulia&quot;,
-            &quot;surname&quot;: &quot;Bianchi&quot;,
-            &quot;mobile&quot;: &quot;5555555555&quot;,
-            &quot;email&quot;: &quot;giulia.bianchi@example.com&quot;,
-            &quot;birth_date&quot;: &quot;2002-03-03&quot;,
-            &quot;deleted_at&quot;: null,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;course_id&quot;: 2,
-                &quot;student_id&quot;: 3
-            }
-        },
-        {
-            &quot;id&quot;: 4,
-            &quot;name&quot;: &quot;Francesca&quot;,
-            &quot;surname&quot;: &quot;Neri&quot;,
-            &quot;mobile&quot;: &quot;4444444444&quot;,
-            &quot;email&quot;: &quot;francesca.neri@example.com&quot;,
-            &quot;birth_date&quot;: &quot;2003-04-04&quot;,
-            &quot;deleted_at&quot;: null,
-            &quot;created_at&quot;: null,
-            &quot;updated_at&quot;: null,
-            &quot;pivot&quot;: {
-                &quot;course_id&quot;: 2,
-                &quot;student_id&quot;: 4
-            }
-        },
-        {
-            &quot;id&quot;: 11,
-            &quot;name&quot;: &quot;Giovanna&quot;,
-            &quot;surname&quot;: &quot;Giallini&quot;,
-            &quot;mobile&quot;: &quot;32812345&quot;,
-            &quot;email&quot;: &quot;giovannagiallini@libero.it&quot;,
-            &quot;birth_date&quot;: &quot;1999-04-05&quot;,
-            &quot;deleted_at&quot;: null,
-            &quot;created_at&quot;: &quot;2026-04-23T08:10:35.000000Z&quot;,
-            &quot;updated_at&quot;: &quot;2026-04-23T08:10:35.000000Z&quot;,
-            &quot;pivot&quot;: {
-                &quot;course_id&quot;: 2,
-                &quot;student_id&quot;: 11
-            }
-        }
-    ]
+    &quot;message&quot;: &quot;No query results for model [App\\Models\\Course] 17&quot;
 }</code>
  </pre>
     </span>
@@ -2424,10 +2240,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="number" style="display: none"
                step="any"               name="id"                data-endpoint="GETapi-courses--id-"
-               value="2"
+               value="17"
                data-component="url">
     <br>
-<p>The ID of the course. Example: <code>2</code></p>
+<p>The ID of the course. Example: <code>17</code></p>
             </div>
                     </form>
 
@@ -2444,14 +2260,14 @@ You can check the Dev Tools console for debugging information.</code></pre>
 
 <div class="bash-example">
     <pre><code class="language-bash">curl --request POST \
-    "http://localhost/api/login" \
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/login" \
     --header "Content-Type: application/json" \
     --header "Accept: application/json"</code></pre></div>
 
 
 <div class="javascript-example">
     <pre><code class="language-javascript">const url = new URL(
-    "http://localhost/api/login"
+    "https://ss-laravel-school.soluzionesoftwaredev.com/api/login"
 );
 
 const headers = {
