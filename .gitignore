@@ -27,3 +27,6 @@ Thumbs.db
 .env.docker
 bootstrap/cache/*.php
 storage/logs/*.log
+.env.docker
+.env.docker.local
+.env.docker.production

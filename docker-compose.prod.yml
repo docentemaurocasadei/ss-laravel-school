@@ -1,0 +1,16 @@
+# docker-compose.prod.yml
+services:
+  app:
+    env_file:
+      - .env.docker.production
+    volumes:
+      - ./:/var/www/html
+      - ./.env.docker.production:/var/www/html/.env
+      - /var/www/html/vendor
+
+  nginx:
+    ports:
+      - "127.0.0.1:8081:80"
+
+  mysql:
+    ports: []

@@ -1,0 +1,17 @@
+# docker-compose.local.yml
+services:
+  app:
+    env_file:
+      - .env.docker.local
+    volumes:
+      - ./:/var/www/html
+      - ./.env.docker.local:/var/www/html/.env
+      - /var/www/html/vendor
+
+  nginx:
+    ports:
+      - "8080:80"
+
+  mysql:
+    ports:
+      - "3310:3306"
