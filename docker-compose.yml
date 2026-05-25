@@ -30,7 +30,7 @@ services:
     restart: unless-stopped
     environment:
       MYSQL_DATABASE: ss_laravel_school
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: sBYg9eiSNuf0r5waFu9dg0bT
       MYSQL_USER: ss_laravel_school_user
       MYSQL_PASSWORD: myPassword!school
     volumes:
