@@ -731,7 +731,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
     \"surname\": \"vddqamniihfqcoynl\",
     \"mobile\": \"azghdtqtqxbajwbpi\",
     \"email\": \"jaunita.schamberger@example.com\",
-    \"birth_date\": \"2026-04-25T13:57:26\",
+    \"birth_date\": \"2026-04-25T14:02:12\",
     \"fiscal_code\": \"inllwloauydls\",
     \"civil_status\": \"msjuryvojcybzvrby\"
 }"
@@ -753,7 +753,7 @@ let body = {
     "surname": "vddqamniihfqcoynl",
     "mobile": "azghdtqtqxbajwbpi",
     "email": "jaunita.schamberger@example.com",
-    "birth_date": "2026-04-25T13:57:26",
+    "birth_date": "2026-04-25T14:02:12",
     "fiscal_code": "inllwloauydls",
     "civil_status": "msjuryvojcybzvrby"
 };
@@ -895,10 +895,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="birth_date"                data-endpoint="POSTapi-students"
-               value="2026-04-25T13:57:26"
+               value="2026-04-25T14:02:12"
                data-component="body">
     <br>
-<p>Must be a valid date. Example: <code>2026-04-25T13:57:26</code></p>
+<p>Must be a valid date. Example: <code>2026-04-25T14:02:12</code></p>
         </div>
                 <div style=" padding-left: 28px;  clear: unset;">
             <b style="line-height: 2;"><code>fiscal_code</code></b>&nbsp;&nbsp;
@@ -947,7 +947,7 @@ You can check the Dev Tools console for debugging information.</code></pre>
     \"surname\": \"vddqamniihfqcoynl\",
     \"mobile\": \"azghdtqtqxbajwbpi\",
     \"email\": \"jaunita.schamberger@example.com\",
-    \"birth_date\": \"2026-04-25T13:57:26\"
+    \"birth_date\": \"2026-04-25T14:02:12\"
 }"
 </code></pre></div>
 
@@ -967,7 +967,7 @@ let body = {
     "surname": "vddqamniihfqcoynl",
     "mobile": "azghdtqtqxbajwbpi",
     "email": "jaunita.schamberger@example.com",
-    "birth_date": "2026-04-25T13:57:26"
+    "birth_date": "2026-04-25T14:02:12"
 };
 
 fetch(url, {
@@ -1124,10 +1124,10 @@ You can check the Dev Tools console for debugging information.</code></pre>
  &nbsp;
                 <input type="text" style="display: none"
                               name="birth_date"                data-endpoint="PUTapi-students--id-"
-               value="2026-04-25T13:57:26"
+               value="2026-04-25T14:02:12"
                data-component="body">
     <br>
-<p>Must be a valid date. Example: <code>2026-04-25T13:57:26</code></p>
+<p>Must be a valid date. Example: <code>2026-04-25T14:02:12</code></p>
         </div>
         </form>
 

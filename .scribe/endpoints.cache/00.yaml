@@ -282,7 +282,7 @@ endpoints:
         name: birth_date
         description: 'Must be a valid date.'
         required: false
-        example: '2026-04-25T13:57:26'
+        example: '2026-04-25T14:02:12'
         type: string
         enumValues: []
         exampleWasSpecified: false
@@ -315,7 +315,7 @@ endpoints:
       surname: vddqamniihfqcoynl
       mobile: azghdtqtqxbajwbpi
       email: jaunita.schamberger@example.com
-      birth_date: '2026-04-25T13:57:26'
+      birth_date: '2026-04-25T14:02:12'
       fiscal_code: inllwloauydls
       civil_status: msjuryvojcybzvrby
     fileParameters: []
@@ -410,7 +410,7 @@ endpoints:
         name: birth_date
         description: 'Must be a valid date.'
         required: false
-        example: '2026-04-25T13:57:26'
+        example: '2026-04-25T14:02:12'
         type: string
         enumValues: []
         exampleWasSpecified: false
@@ -421,7 +421,7 @@ endpoints:
       surname: vddqamniihfqcoynl
       mobile: azghdtqtqxbajwbpi
       email: jaunita.schamberger@example.com
-      birth_date: '2026-04-25T13:57:26'
+      birth_date: '2026-04-25T14:02:12'
     fileParameters: []
     responses: []
     responseFields: []
